@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { Transform } from 'stream';
 interface Options {
     readableObjectMode: true;
