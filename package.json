@@ -22,7 +22,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "@types/node": "13.9.3",
-    "del-cli": "^5",
+    "del-cli": "^6",
     "dsp.js": "git+https://git@github.com/corbanbrook/dsp.js.git",
     "node-png": "^0.4.3",
     "typescript": "^5.6.3"
