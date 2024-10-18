@@ -1,4 +1,4 @@
-import { Transform } from 'stream';
+import { Transform } from "stream";
 interface Options {
     readableObjectMode: true;
     highWaterMark: number;
