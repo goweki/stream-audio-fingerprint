@@ -1,92 +1,96 @@
-# Audio landmark fingerprinting as a Node Stream module
+# Stream Audio Fingerprint
 
-This module is a duplex stream (instance of stream.Transform) that converts a PCM audio signal into a series of audio fingerprints. It works with audio tracks as well as with unlimited audio streams, e.g. broadcast radio.
+> Real-time, streamable audio landmark fingerprinting for Node.js written in TypeScript.
 
-It is one of the foundations of the [Adblock Radio project](https://github.com/adblockradio/adblockradio).
+`stream-audio-fingerprint` is a Node.js `Transform` stream module that converts raw PCM audio signals into acoustic fingerprints on the fly. It supports finite audio files as well as infinite live audio streams (e.g., Internet radio, broadcast streams, or microphone feeds).
 
-## Credits
+It serves as one of the core foundational engines of the [Adblock Radio](https://github.com/adblockradio/adblockradio) project.
 
-The [acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint) technique used here is the landmark algorithm, as described in the [Shazam 2003 paper](http://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf).
-The implementation in ```codegen_landmark.js``` has been inspired by the MATLAB routine of D. Ellis ["Robust Landmark-Based Audio Fingerprinting" (2009)](http://labrosa.ee.columbia.edu/matlab/fingerprint/). One significant difference with Ellis' implementation is that this module can handle unlimited audio streams, e.g. radio, and not only finished audio tracks.
+---
 
-Note the existence of another good landmark fingerprinter in Python, [dejavu](https://github.com/worldveil/dejavu).
+## How It Works
 
-## Description
+The engine uses the **Landmark Fingerprinting Algorithm** popularized by the Shazam 2003 industrial paper:
 
-In a nutshell,
-- a spectrogram is computed from the audio signal
-- significant peaks are chosen in this time-frequency map. a latency of 250ms is used to determine if a peak is not followed by a bigger peak.
-- fingerprints are computed by linking peaks with ```dt```, ```f1``` and ```f2```, ready to be inserted in a database or to be compared with other fingerprints.
+1. **Spectrogram Generation:** The stream calculates a Short-Time Fourier Transform (STFT) over incoming audio chunks.
+2. **Constellation Peak Picking:** Local amplitude maxima (peaks) are picked across time and frequency. Adaptive time-frequency thresholds keep peak density balanced.
+3. **Combinatorial Pairing:** Peaks are paired within a target zone to create dynamic hashes (`hcodes`) tied to precise relative time offsets (`tcodes`).
 
-![Spectrogram, peaks and pairs](.github/assets/out-fft.png)
+---
 
-In the background, about 12s of musical content is represented as a spectrogram (top frequency is about 10kHz). The blue marks are the chosen spectrogram peaks. Grey lines are peaks pairs that each lead to a fingerprint.
+## Features
 
-![Threshold and peaks](.github/assets/out-thr.png)
+- **Stream Native:** Uses standard Node.js `Transform` streams for minimal memory footprint.
+- **Real-Time Processing:** Low latency peak extraction suitable for live detection.
+- **Cross-Platform:** Compatible with Windows, macOS, and Linux when combined with `ffmpeg`.
 
-Given the same audio, this figure shows the same peaks and the internal *forward* threshold that prevent peaks from being too close in time and frequency. The *backward* threshold selection is not represented here.
+---
 
-## Usage
+## Getting Started
 
-```shell
-npm install stream-audio-fingerprint
+### Prerequisites
+
+- **Node.js**: 20.x or higher
+- **FFmpeg**: Must be installed and available in your system `PATH`.
+
+### Installation
+
+- Download code
+
+```bash
+git clone https://github.com/goweki/stream-audio-fingerprint.git
 ```
 
-The algorithm is in `lib/index.ts`.
+- navigate to directory and install dependencies
 
-A demo usage is proposed in `demo.js`. It requires the executable [ffmpeg](https://ffmpeg.org/download.html) to run.
-
-```js
-const childProcess = require('child_process');
-const { Codegen } = require('stream-audio-fingerprint');
-
-const decoder = childProcess.spawn('ffmpeg', [
-	'-i', 'pipe:0',
-	'-acodec', 'pcm_s16le',
-	'-ar', '22050',
-	'-ac', '1',
-	'-f', 'wav',
-	'-v', 'fatal',
-	'pipe:1'
-], { stdio: ['pipe', 'pipe', process.stderr] });
-
-const fingerprinter = new Codegen();
-
-// Pipe ouput of ffmpeg decoder to fingerprinter
-decoder.stdout.pipe(fingerprinter);
-
-// Pipe input to this file to ffmpeg decoder
-process.stdin.pipe(decoder.stdin);
-
-// Log all the found fingerprints as they come in
-fingerprinter.on('data', data => {
-	for (let i = 0; i < data.tcodes.length; i++) {
-		console.log(`time=${data.tcodes[i]} fingerprint=${data.hcodes[i]}`);
-	}
-});
-
-fingerprinter.on('end', () => {
-	console.log('Fingerprints stream ended.');
-});
+```
+cd stream-audio-fingerprint
+npm i
 ```
 
-and then we pipe audio data, either a stream or a file
+---
 
-```shell
-curl http://radiofg.impek.com/fg | node demo.js
-cat awesome_music.mp3 | node demo.js
-```
-on Windows:
-```
-type awesome_music.mp3 | node demo.js
+## Usage Example (`demo.js`)
+
+```bash
+node demo.js ./data/000002.mp3
 ```
 
-## Integration in your project
+---
 
-Matching fingerprints in a database is not a trivial topic, I should write a technical note about it some day.
+## Troubleshooting & Windows Support
 
-For a reference implementation you can have a look at the code of the Adblock Radio algorithm to catch ads https://github.com/adblockradio/adblockradio/blob/master/predictor-db/hotlist.js#L150.
+### Executing NPM / PowerShell Execution Policies
+
+If running scripts is blocked on Windows PowerShell, set the execution policy for your current session:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+```
+
+### Build Cleanup Errors (`prebuild`)
+
+If `npm run build` fails on Windows due to `rimraf` or `del` path errors, update your `package.json` scripts to use Node's native cross-platform file cleanup:
+
+```json
+"scripts": {
+  "prepare": "npm run build",
+  "prebuild": "node -e \"fs.rmSync('./lib', { recursive: true, force: true })\"",
+  "build": "tsc -d"
+}
+
+```
+
+---
+
+## Credits & References
+
+- **Shazam Paper:** Avery Li-Chun Wang, ["An Industrial-Strength Audio Search Algorithm"](http://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf) (2003).
+- **MATLAB Reference:** D. Ellis, ["Robust Landmark-Based Audio Fingerprinting"](http://labrosa.ee.columbia.edu/matlab/fingerprint/) (2009).
+
+---
 
 ## License
 
-See LICENSE file.
+Subject to the terms of the **Mozilla Public License 2.0 (MPL-2.0)**.
