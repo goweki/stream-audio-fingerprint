@@ -50,10 +50,16 @@ npm i
 
 ---
 
-## Usage Example (`demo.js`)
+## Usage Example (`fingerprint-file.js`)
 
 ```bash
-node demo.js ./data/000002.mp3
+node fingerprint-file.js ./data/000002.mp3
+```
+
+or for a directory of audio files:
+
+```bash
+node fingerprint-dataset.js
 ```
 
 ---
