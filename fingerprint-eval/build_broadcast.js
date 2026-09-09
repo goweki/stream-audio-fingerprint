@@ -43,6 +43,10 @@ async function getDuration(filePath) {
   return parseFloat(stdout.trim());
 }
 
+// `metadata` entries may optionally carry `registered: false` to mark
+// them as unregistered/foreign probes (see run_fingerprint_eval.js). If
+// absent, a track is assumed registered -- this keeps the function
+// backward-compatible with the earlier all-registered call sites.
 async function buildSimulatedBroadcast(
   metadata,
   workDir,
@@ -72,6 +76,7 @@ async function buildSimulatedBroadcast(
         track.custom_artist_id != null ? String(track.custom_artist_id) : null,
       startSec: cursorSec,
       endSec: cursorSec + duration,
+      registered: track.registered !== false,
     });
     cursorSec += duration;
   }

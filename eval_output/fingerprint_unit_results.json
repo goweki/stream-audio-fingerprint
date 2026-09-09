@@ -1,0 +1,2522 @@
+[
+  {
+    "trackId": "5239",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 390
+  },
+  {
+    "trackId": "5239",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "5239",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 220
+  },
+  {
+    "trackId": "5239",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 203
+  },
+  {
+    "trackId": "5239",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "0913",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 244
+  },
+  {
+    "trackId": "0913",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 257
+  },
+  {
+    "trackId": "0913",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 224
+  },
+  {
+    "trackId": "0913",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 240
+  },
+  {
+    "trackId": "0913",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 228
+  },
+  {
+    "trackId": "0205",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "0205",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 227
+  },
+  {
+    "trackId": "0205",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 268
+  },
+  {
+    "trackId": "0205",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "0205",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 217
+  },
+  {
+    "trackId": "6075",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "6075",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 253
+  },
+  {
+    "trackId": "6075",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 228
+  },
+  {
+    "trackId": "6075",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "6075",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "2254",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "2254",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 305
+  },
+  {
+    "trackId": "2254",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 221
+  },
+  {
+    "trackId": "2254",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 236
+  },
+  {
+    "trackId": "2254",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "2007",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 230
+  },
+  {
+    "trackId": "2007",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 224
+  },
+  {
+    "trackId": "2007",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "2007",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 272
+  },
+  {
+    "trackId": "2007",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 252
+  },
+  {
+    "trackId": "1829",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 313
+  },
+  {
+    "trackId": "1829",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 227
+  },
+  {
+    "trackId": "1829",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 318
+  },
+  {
+    "trackId": "1829",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 290
+  },
+  {
+    "trackId": "1829",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 227
+  },
+  {
+    "trackId": "1144",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "1144",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "1144",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 196
+  },
+  {
+    "trackId": "1144",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "1144",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 252
+  },
+  {
+    "trackId": "6034",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 327
+  },
+  {
+    "trackId": "6034",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 273
+  },
+  {
+    "trackId": "6034",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 245
+  },
+  {
+    "trackId": "6034",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 380
+  },
+  {
+    "trackId": "6034",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 288
+  },
+  {
+    "trackId": "0840",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "0840",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "0840",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 258
+  },
+  {
+    "trackId": "0840",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "0840",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "5544",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 224
+  },
+  {
+    "trackId": "5544",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 274
+  },
+  {
+    "trackId": "5544",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "5544",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 241
+  },
+  {
+    "trackId": "5544",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "6068",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "6068",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 475
+  },
+  {
+    "trackId": "6068",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 339
+  },
+  {
+    "trackId": "6068",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 429
+  },
+  {
+    "trackId": "6068",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 448
+  },
+  {
+    "trackId": "7309",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 316
+  },
+  {
+    "trackId": "7309",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "7309",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "7309",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 236
+  },
+  {
+    "trackId": "7309",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 244
+  },
+  {
+    "trackId": "4468",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "4468",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 232
+  },
+  {
+    "trackId": "4468",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "4468",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "4468",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 271
+  },
+  {
+    "trackId": "0713",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "0713",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 193
+  },
+  {
+    "trackId": "0713",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 246
+  },
+  {
+    "trackId": "0713",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 270
+  },
+  {
+    "trackId": "0713",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "4838",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 254
+  },
+  {
+    "trackId": "4838",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 242
+  },
+  {
+    "trackId": "4838",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 226
+  },
+  {
+    "trackId": "4838",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 249
+  },
+  {
+    "trackId": "4838",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "3457",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 196
+  },
+  {
+    "trackId": "3457",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 187
+  },
+  {
+    "trackId": "3457",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "3457",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "3457",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 199
+  },
+  {
+    "trackId": "0261",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "0261",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 203
+  },
+  {
+    "trackId": "0261",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "0261",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 267
+  },
+  {
+    "trackId": "0261",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "0245",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 185
+  },
+  {
+    "trackId": "0245",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 234
+  },
+  {
+    "trackId": "0245",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "0245",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "0245",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 265
+  },
+  {
+    "trackId": "0768",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 195
+  },
+  {
+    "trackId": "0768",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "0768",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 214
+  },
+  {
+    "trackId": "0768",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 234
+  },
+  {
+    "trackId": "0768",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 323
+  },
+  {
+    "trackId": "1792",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "1792",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 180
+  },
+  {
+    "trackId": "1792",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 221
+  },
+  {
+    "trackId": "1792",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 238
+  },
+  {
+    "trackId": "1792",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 264
+  },
+  {
+    "trackId": "1906",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "1906",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 221
+  },
+  {
+    "trackId": "1906",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 200
+  },
+  {
+    "trackId": "1906",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "1906",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "4140",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "4140",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "4140",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "4140",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 188
+  },
+  {
+    "trackId": "4140",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "4932",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 232
+  },
+  {
+    "trackId": "4932",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "4932",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 250
+  },
+  {
+    "trackId": "4932",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "4932",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 234
+  },
+  {
+    "trackId": "0218",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "0218",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "0218",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "0218",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "0218",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 225
+  },
+  {
+    "trackId": "4598",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 225
+  },
+  {
+    "trackId": "4598",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "4598",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 189
+  },
+  {
+    "trackId": "4598",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "4598",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "1629",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 194
+  },
+  {
+    "trackId": "1629",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "1629",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 184
+  },
+  {
+    "trackId": "1629",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "1629",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "5866",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "5866",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "5866",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 223
+  },
+  {
+    "trackId": "5866",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "5866",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 253
+  },
+  {
+    "trackId": "5324",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 279
+  },
+  {
+    "trackId": "5324",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "5324",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 228
+  },
+  {
+    "trackId": "5324",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "5324",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "5746",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 194
+  },
+  {
+    "trackId": "5746",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 187
+  },
+  {
+    "trackId": "5746",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 195
+  },
+  {
+    "trackId": "5746",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "5746",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "4465",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 199
+  },
+  {
+    "trackId": "4465",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "4465",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "4465",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 213
+  },
+  {
+    "trackId": "4465",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 235
+  },
+  {
+    "trackId": "3437",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 217
+  },
+  {
+    "trackId": "3437",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 216
+  },
+  {
+    "trackId": "3437",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "3437",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "3437",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 247
+  },
+  {
+    "trackId": "1806",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 204
+  },
+  {
+    "trackId": "1806",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 196
+  },
+  {
+    "trackId": "1806",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "1806",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 308
+  },
+  {
+    "trackId": "1806",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 235
+  },
+  {
+    "trackId": "3680",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 189
+  },
+  {
+    "trackId": "3680",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 193
+  },
+  {
+    "trackId": "3680",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "3680",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 263
+  },
+  {
+    "trackId": "3680",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 225
+  },
+  {
+    "trackId": "4828",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 220
+  },
+  {
+    "trackId": "4828",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "4828",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "4828",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "4828",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "2279",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 278
+  },
+  {
+    "trackId": "2279",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 243
+  },
+  {
+    "trackId": "2279",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 194
+  },
+  {
+    "trackId": "2279",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "2279",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "6631",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "6631",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "6631",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "6631",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 220
+  },
+  {
+    "trackId": "6631",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 255
+  },
+  {
+    "trackId": "7122",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "7122",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 224
+  },
+  {
+    "trackId": "7122",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 356
+  },
+  {
+    "trackId": "7122",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 258
+  },
+  {
+    "trackId": "7122",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 233
+  },
+  {
+    "trackId": "0054",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "0054",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "0054",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 194
+  },
+  {
+    "trackId": "0054",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "0054",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "6217",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 257
+  },
+  {
+    "trackId": "6217",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 200
+  },
+  {
+    "trackId": "6217",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 212
+  },
+  {
+    "trackId": "6217",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "6217",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "6602",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 199
+  },
+  {
+    "trackId": "6602",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 188
+  },
+  {
+    "trackId": "6602",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 260
+  },
+  {
+    "trackId": "6602",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 183
+  },
+  {
+    "trackId": "6602",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 241
+  },
+  {
+    "trackId": "1308",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "1308",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "1308",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "1308",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "1308",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "5720",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "5720",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 220
+  },
+  {
+    "trackId": "5720",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "5720",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 196
+  },
+  {
+    "trackId": "5720",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 249
+  },
+  {
+    "trackId": "3463",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 200
+  },
+  {
+    "trackId": "3463",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "3463",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "3463",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 233
+  },
+  {
+    "trackId": "3463",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 216
+  },
+  {
+    "trackId": "2788",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "2788",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 204
+  },
+  {
+    "trackId": "2788",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 203
+  },
+  {
+    "trackId": "2788",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 187
+  },
+  {
+    "trackId": "2788",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "2277",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 248
+  },
+  {
+    "trackId": "2277",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 232
+  },
+  {
+    "trackId": "2277",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 200
+  },
+  {
+    "trackId": "2277",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 237
+  },
+  {
+    "trackId": "2277",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 221
+  },
+  {
+    "trackId": "1274",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "1274",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "1274",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 267
+  },
+  {
+    "trackId": "1274",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 261
+  },
+  {
+    "trackId": "1274",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 238
+  },
+  {
+    "trackId": "1764",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 247
+  },
+  {
+    "trackId": "1764",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 248
+  },
+  {
+    "trackId": "1764",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 281
+  },
+  {
+    "trackId": "1764",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 257
+  },
+  {
+    "trackId": "1764",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 225
+  },
+  {
+    "trackId": "7842",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "7842",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 223
+  },
+  {
+    "trackId": "7842",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 193
+  },
+  {
+    "trackId": "7842",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 193
+  },
+  {
+    "trackId": "7842",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 247
+  },
+  {
+    "trackId": "6255",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 186
+  },
+  {
+    "trackId": "6255",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 189
+  },
+  {
+    "trackId": "6255",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 185
+  },
+  {
+    "trackId": "6255",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "6255",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 248
+  },
+  {
+    "trackId": "2758",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "2758",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 199
+  },
+  {
+    "trackId": "2758",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "2758",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 205
+  },
+  {
+    "trackId": "2758",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 181
+  },
+  {
+    "trackId": "0838",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "0838",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "0838",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "0838",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "0838",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "0760",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "0760",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "0760",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "0760",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 263
+  },
+  {
+    "trackId": "0760",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "3113",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "3113",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 244
+  },
+  {
+    "trackId": "3113",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 232
+  },
+  {
+    "trackId": "3113",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 213
+  },
+  {
+    "trackId": "3113",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 226
+  },
+  {
+    "trackId": "0793",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 307
+  },
+  {
+    "trackId": "0793",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 184
+  },
+  {
+    "trackId": "0793",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "0793",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 189
+  },
+  {
+    "trackId": "0793",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "2941",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "2941",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "2941",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 240
+  },
+  {
+    "trackId": "2941",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 273
+  },
+  {
+    "trackId": "2941",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 251
+  },
+  {
+    "trackId": "6943",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "6943",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 252
+  },
+  {
+    "trackId": "6943",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "6943",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "6943",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 226
+  },
+  {
+    "trackId": "2818",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 208
+  },
+  {
+    "trackId": "2818",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "2818",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "2818",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 204
+  },
+  {
+    "trackId": "2818",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 305
+  },
+  {
+    "trackId": "4946",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "4946",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 207
+  },
+  {
+    "trackId": "4946",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 210
+  },
+  {
+    "trackId": "4946",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 230
+  },
+  {
+    "trackId": "4946",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 215
+  },
+  {
+    "trackId": "2167",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 187
+  },
+  {
+    "trackId": "2167",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "2167",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "2167",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "2167",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "6612",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "6612",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "6612",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 219
+  },
+  {
+    "trackId": "6612",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 269
+  },
+  {
+    "trackId": "6612",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 374
+  },
+  {
+    "trackId": "0356",
+    "condition": "clean",
+    "correct": false,
+    "latencyMs": 325
+  },
+  {
+    "trackId": "0356",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 322
+  },
+  {
+    "trackId": "0356",
+    "condition": "mp3_32k",
+    "correct": false,
+    "latencyMs": 369
+  },
+  {
+    "trackId": "0356",
+    "condition": "noise_snr20",
+    "correct": false,
+    "latencyMs": 361
+  },
+  {
+    "trackId": "0356",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 363
+  },
+  {
+    "trackId": "5978",
+    "condition": "clean",
+    "correct": false,
+    "latencyMs": 352
+  },
+  {
+    "trackId": "5978",
+    "condition": "mp3_64k",
+    "correct": false,
+    "latencyMs": 332
+  },
+  {
+    "trackId": "5978",
+    "condition": "mp3_32k",
+    "correct": false,
+    "latencyMs": 350
+  },
+  {
+    "trackId": "5978",
+    "condition": "noise_snr20",
+    "correct": false,
+    "latencyMs": 312
+  },
+  {
+    "trackId": "5978",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 335
+  },
+  {
+    "trackId": "3764",
+    "condition": "clean",
+    "correct": false,
+    "latencyMs": 325
+  },
+  {
+    "trackId": "3764",
+    "condition": "mp3_64k",
+    "correct": false,
+    "latencyMs": 351
+  },
+  {
+    "trackId": "3764",
+    "condition": "mp3_32k",
+    "correct": false,
+    "latencyMs": 328
+  },
+  {
+    "trackId": "3764",
+    "condition": "noise_snr20",
+    "correct": false,
+    "latencyMs": 318
+  },
+  {
+    "trackId": "3764",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 322
+  },
+  {
+    "trackId": "4393",
+    "condition": "clean",
+    "correct": false,
+    "latencyMs": 326
+  },
+  {
+    "trackId": "4393",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 327
+  },
+  {
+    "trackId": "4393",
+    "condition": "mp3_32k",
+    "correct": false,
+    "latencyMs": 312
+  },
+  {
+    "trackId": "4393",
+    "condition": "noise_snr20",
+    "correct": false,
+    "latencyMs": 346
+  },
+  {
+    "trackId": "4393",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 331
+  },
+  {
+    "trackId": "1023",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 338
+  },
+  {
+    "trackId": "1023",
+    "condition": "mp3_64k",
+    "correct": false,
+    "latencyMs": 323
+  },
+  {
+    "trackId": "1023",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 332
+  },
+  {
+    "trackId": "1023",
+    "condition": "noise_snr20",
+    "correct": false,
+    "latencyMs": 309
+  },
+  {
+    "trackId": "1023",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 324
+  },
+  {
+    "trackId": "7972",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 320
+  },
+  {
+    "trackId": "7972",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 143
+  },
+  {
+    "trackId": "7972",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 122
+  },
+  {
+    "trackId": "7972",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 120
+  },
+  {
+    "trackId": "7972",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 151
+  },
+  {
+    "trackId": "7556",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 122
+  },
+  {
+    "trackId": "7556",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 115
+  },
+  {
+    "trackId": "7556",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 113
+  },
+  {
+    "trackId": "7556",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 106
+  },
+  {
+    "trackId": "7556",
+    "condition": "noise_snr10",
+    "correct": false,
+    "latencyMs": 108
+  },
+  {
+    "trackId": "3101",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 132
+  },
+  {
+    "trackId": "3101",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 110
+  },
+  {
+    "trackId": "3101",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 211
+  },
+  {
+    "trackId": "3101",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 199
+  },
+  {
+    "trackId": "3101",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 218
+  },
+  {
+    "trackId": "0646",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 242
+  },
+  {
+    "trackId": "0646",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "0646",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 183
+  },
+  {
+    "trackId": "0646",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "0646",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 217
+  },
+  {
+    "trackId": "4523",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 240
+  },
+  {
+    "trackId": "4523",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "4523",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 226
+  },
+  {
+    "trackId": "4523",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 213
+  },
+  {
+    "trackId": "4523",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 256
+  },
+  {
+    "trackId": "2402",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 223
+  },
+  {
+    "trackId": "2402",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 216
+  },
+  {
+    "trackId": "2402",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "2402",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 227
+  },
+  {
+    "trackId": "2402",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "6795",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "6795",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "6795",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 260
+  },
+  {
+    "trackId": "6795",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 217
+  },
+  {
+    "trackId": "6795",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 228
+  },
+  {
+    "trackId": "5150",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 222
+  },
+  {
+    "trackId": "5150",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "5150",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 223
+  },
+  {
+    "trackId": "5150",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "5150",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 193
+  },
+  {
+    "trackId": "5067",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 178
+  },
+  {
+    "trackId": "5067",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 180
+  },
+  {
+    "trackId": "5067",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 235
+  },
+  {
+    "trackId": "5067",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 180
+  },
+  {
+    "trackId": "5067",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 250
+  },
+  {
+    "trackId": "7254",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 201
+  },
+  {
+    "trackId": "7254",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 238
+  },
+  {
+    "trackId": "7254",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "7254",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 262
+  },
+  {
+    "trackId": "7254",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 262
+  },
+  {
+    "trackId": "7060",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 224
+  },
+  {
+    "trackId": "7060",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 249
+  },
+  {
+    "trackId": "7060",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 203
+  },
+  {
+    "trackId": "7060",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "7060",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 185
+  },
+  {
+    "trackId": "2963",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 219
+  },
+  {
+    "trackId": "2963",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 202
+  },
+  {
+    "trackId": "2963",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 234
+  },
+  {
+    "trackId": "2963",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 220
+  },
+  {
+    "trackId": "2963",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "4730",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "4730",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 186
+  },
+  {
+    "trackId": "4730",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 216
+  },
+  {
+    "trackId": "4730",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "4730",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "1576",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 229
+  },
+  {
+    "trackId": "1576",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 209
+  },
+  {
+    "trackId": "1576",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "1576",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 213
+  },
+  {
+    "trackId": "1576",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 186
+  },
+  {
+    "trackId": "5772",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 184
+  },
+  {
+    "trackId": "5772",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 234
+  },
+  {
+    "trackId": "5772",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 216
+  },
+  {
+    "trackId": "5772",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 213
+  },
+  {
+    "trackId": "5772",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 197
+  },
+  {
+    "trackId": "0570",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 188
+  },
+  {
+    "trackId": "0570",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 185
+  },
+  {
+    "trackId": "0570",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 191
+  },
+  {
+    "trackId": "0570",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 231
+  },
+  {
+    "trackId": "0570",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 223
+  },
+  {
+    "trackId": "0376",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 195
+  },
+  {
+    "trackId": "0376",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 262
+  },
+  {
+    "trackId": "0376",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 206
+  },
+  {
+    "trackId": "0376",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 228
+  },
+  {
+    "trackId": "0376",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 192
+  },
+  {
+    "trackId": "5418",
+    "condition": "clean",
+    "correct": true,
+    "latencyMs": 194
+  },
+  {
+    "trackId": "5418",
+    "condition": "mp3_64k",
+    "correct": true,
+    "latencyMs": 190
+  },
+  {
+    "trackId": "5418",
+    "condition": "mp3_32k",
+    "correct": true,
+    "latencyMs": 198
+  },
+  {
+    "trackId": "5418",
+    "condition": "noise_snr20",
+    "correct": true,
+    "latencyMs": 235
+  },
+  {
+    "trackId": "5418",
+    "condition": "noise_snr10",
+    "correct": true,
+    "latencyMs": 197
+  }
+]

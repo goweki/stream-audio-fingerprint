@@ -36,7 +36,7 @@ const METADATA_FILE = path.resolve(
 const FINGERPRINTS_DIR = path.resolve(
   "../fma_data_preparation/data/dataset1000/fingerprints",
 );
-const EVAL_DIR = path.resolve("./eval_output");
+const EVAL_DIR = path.resolve("./data/eval_output");
 
 const SAMPLE_RATE = 22050; // matches generate-fingerprints.js
 const CHANNELS = 1;
@@ -48,6 +48,17 @@ const N_RUNS = 2; // Section 3.6.6 reliability protocol
 // Set to a number (e.g. 50) to test the pipeline quickly before running
 // against the full dataset. Set to null to use everything.
 const UNIT_TEST_SUBSET = null;
+
+// Fraction of the broadcast that should be UNREGISTERED "foreign" tracks
+// -- i.e. present in the simulated broadcast but deliberately excluded
+// from the fingerprint index. Without these, fp/tn stay at 0 and FPR is
+// undefined (see fingerprint_results output). These tracks must exist in
+// FINGERPRINTS_DIR's source metadata but NOT have been indexed -- easiest
+// approach: split metadata1000.json into registered/held-out before
+// running generate-fingerprints.js, or point UNREGISTERED_METADATA_FILE
+// at a separate small FMA sample that was never fingerprinted.
+const UNREGISTERED_METADATA_FILE = null; // e.g. path.resolve("./unregistered_sample.json")
+const UNREGISTERED_FRACTION = 0.15; // ~15% of the broadcast should be foreign tracks
 
 // ------------------------------------------------------------
 // Stats helpers
@@ -112,6 +123,23 @@ function groundTruthAt(groundTruth, tStart, tEnd) {
   );
 }
 
+// A window scores as:
+//   tp  -> registered track, correctly identified
+//   fn  -> registered track, missed or misidentified
+//   fp  -> unregistered track, but the engine matched it to SOMETHING anyway
+//   tn  -> unregistered track, correctly left unmatched
+//   (windows landing in a gap / no ground truth are skipped -- treated as tn only
+//    if the engine also found nothing, otherwise dropped as ambiguous)
+function scoreWindow(truth, matchedId) {
+  if (truth && truth.registered) {
+    return matchedId === truth.trackId ? "tp" : "fn";
+  }
+  if (truth && !truth.registered) {
+    return matchedId ? "fp" : "tn";
+  }
+  return matchedId ? null : "tn"; // no ground truth event at all (silence/gap)
+}
+
 async function runStreamLevelTest(
   broadcastCleanPath,
   groundTruth,
@@ -160,11 +188,12 @@ async function runStreamLevelTest(
     });
     latencies.push(Date.now() - t0);
 
-    const truthId = truth ? truth.trackId : null;
-    if (truthId && matchedId === truthId) tp++;
-    else if (truthId && matchedId !== truthId) fn++;
-    else if (!truthId && matchedId) fp++;
-    else tn++;
+    const verdict = scoreWindow(truth, matchedId);
+    if (verdict === "tp") tp++;
+    else if (verdict === "fn") fn++;
+    else if (verdict === "fp") fp++;
+    else if (verdict === "tn") tn++;
+    // verdict === null: ambiguous (no ground truth, but something matched) -- skipped
   }
 
   if (fs.existsSync(chunkPath)) fs.unlinkSync(chunkPath);
@@ -186,23 +215,58 @@ async function runStreamLevelTest(
 async function main() {
   fs.mkdirSync(EVAL_DIR, { recursive: true });
 
-  let metadata = JSON.parse(fs.readFileSync(METADATA_FILE, "utf8"));
-  if (UNIT_TEST_SUBSET) metadata = metadata.slice(0, UNIT_TEST_SUBSET);
-  console.log(`Loaded ${metadata.length} tracks`);
+  let allMetadata = JSON.parse(fs.readFileSync(METADATA_FILE, "utf8"));
+  if (UNIT_TEST_SUBSET) allMetadata = allMetadata.slice(0, UNIT_TEST_SUBSET);
+  console.log(`Loaded ${allMetadata.length} tracks`);
+
+  // Split into registered (indexed, used for TP/FN) and unregistered
+  // (held OUT of the index, used as genuine FPR probes). Deterministic
+  // split (not random) so results are reproducible run-to-run.
+  const heldOutCount = Math.round(allMetadata.length * UNREGISTERED_FRACTION);
+  const unregisteredMetadata = allMetadata
+    .slice(-heldOutCount)
+    .map((t) => ({ ...t, registered: false }));
+  const registeredMetadata = allMetadata
+    .slice(0, allMetadata.length - heldOutCount)
+    .map((t) => ({ ...t, registered: true }));
+
+  console.log(
+    `Split: ${registeredMetadata.length} registered, ` +
+      `${unregisteredMetadata.length} unregistered (FPR probes)`,
+  );
+
+  const excludeTrackIds = new Set(
+    unregisteredMetadata.map((t) => String(t.custom_track_id)),
+  );
 
   console.log("Building fingerprint index from", FINGERPRINTS_DIR);
-  const index = buildIndex(FINGERPRINTS_DIR);
+  const index = buildIndex(FINGERPRINTS_DIR, excludeTrackIds);
 
-  console.log("Running unit-level tests...");
-  const unitResults = await runUnitLevelTests(metadata, index);
+  console.log(
+    "Running unit-level tests (registered tracks only -- these test recall, not FPR)...",
+  );
+  const unitResults = await runUnitLevelTests(registeredMetadata, index);
   fs.writeFileSync(
     path.join(EVAL_DIR, "fingerprint_unit_results.json"),
     JSON.stringify(unitResults, null, 2),
   );
 
-  console.log("Building simulated broadcast...");
+  console.log(
+    "Building simulated broadcast (registered + unregistered tracks, shuffled)...",
+  );
+  const broadcastMetadata = [...registeredMetadata, ...unregisteredMetadata];
+  // Simple deterministic shuffle so registered/unregistered tracks are
+  // interleaved rather than all foreign tracks landing at the end.
+  for (let i = broadcastMetadata.length - 1; i > 0; i--) {
+    const j = (i * 2654435761) % (i + 1); // deterministic pseudo-shuffle
+    [broadcastMetadata[i], broadcastMetadata[j]] = [
+      broadcastMetadata[j],
+      broadcastMetadata[i],
+    ];
+  }
+
   const { broadcastPath, groundTruth } = await buildSimulatedBroadcast(
-    metadata,
+    broadcastMetadata,
     path.join(EVAL_DIR, "broadcast"),
     SAMPLE_RATE,
     CHANNELS,
